@@ -23,6 +23,11 @@ This README describes the folder structure, and the execution order of the data 
 ├── silver_layer_without_exam.ipynb     # Silver pipeline for non-exam datasets
 └── gold_layer.ipynb                     # Final modeling/analytics dataset creation
 ```
+---
+
+There are two parallel datasets:
+   * With Exam: Main dataset used for training and modeling.
+   * Without Exam: Separate dataset used for testing predictions.
 
 ---
 
